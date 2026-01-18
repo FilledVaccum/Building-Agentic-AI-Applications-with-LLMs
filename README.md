@@ -6,7 +6,7 @@
 
 Comprehensive course material for **NVIDIA-Certified Professional: Agentic AI (NCP-AAI)** certification preparation.
 
-## 📚 Overview
+## Overview
 
 This repository contains a complete course system for building production-ready agentic AI applications using Large Language Models (LLMs). The course is specifically designed to prepare students for the NCP-AAI certification exam.
 
@@ -18,7 +18,7 @@ This repository contains a complete course system for building production-ready 
 - **Production-ready code examples** following security best practices
 - **20-24 hours** of instruction + 20-30 hours of self-study
 
-## 🎯 Target Audience
+## Target Audience
 
 - Software developers and engineers
 - Solutions architects
@@ -26,7 +26,7 @@ This repository contains a complete course system for building production-ready 
 - Data scientists
 - AI strategists with 1-2 years of AI/ML experience
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -55,7 +55,7 @@ This repository contains a complete course system for building production-ready 
 └── integrated_course.json        # Complete course data (685KB)
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -87,7 +87,7 @@ This repository contains a complete course system for building production-ready 
    pytest tests/
    ```
 
-## 🔐 Security
+## Security
 
 **Important**: This repository follows strict security practices:
 
@@ -98,7 +98,7 @@ This repository contains a complete course system for building production-ready 
 
 See [SECURITY.md](SECURITY.md) for detailed security guidelines.
 
-## 📖 Course Modules
+## Course Modules
 
 | Module | Title | Duration | Exam Coverage |
 |--------|-------|----------|---------------|
@@ -116,7 +116,7 @@ See [SECURITY.md](SECURITY.md) for detailed security guidelines.
 | 12 | Advanced Topics and Real-World Applications | 1.5h | All Topics (Integration) |
 | 13 | Final Assessment and Exam Preparation | 2h | Comprehensive Review |
 
-## 🧪 Testing
+## Testing
 
 Run the comprehensive test suite:
 
@@ -134,7 +134,7 @@ pytest tests/test_code_quality.py -v
 pytest tests/ --cov=src --cov-report=html
 ```
 
-## 🛠️ Development
+## Development
 
 ### Contributing
 
@@ -163,7 +163,7 @@ This script checks for:
 - Maintain >80% test coverage
 - No hardcoded secrets
 
-## 📦 Deployment
+## Deployment
 
 ### Docker Deployment
 
@@ -183,7 +183,7 @@ python deployment/scorm_packager.py
 
 See [deployment/LMS_INTEGRATION.md](deployment/LMS_INTEGRATION.md) for details.
 
-## 📊 Exam Preparation
+## Exam Preparation
 
 ### Practice Exams
 
@@ -199,7 +199,7 @@ See [deployment/LMS_INTEGRATION.md](deployment/LMS_INTEGRATION.md) for details.
 - [External References](content/supplementary/external_references.md) - Curated links
 - [Study Plan Template](content/supplementary/study_plan_template.md)
 
-## 🔧 Tools and Platforms
+## Tools and Platforms
 
 ### NVIDIA Platforms
 - **NVIDIA NIM** - Inference microservices
@@ -216,19 +216,19 @@ See [deployment/LMS_INTEGRATION.md](deployment/LMS_INTEGRATION.md) for details.
 - Vector databases (Milvus, Pinecone)
 - Traditional databases for structured data
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
 
 NVIDIA, NIM, NeMo, TensorRT, Triton, and DGX are trademarks of NVIDIA Corporation.
 
-## 🤝 Support
+## Support
 
 - **Issues**: [GitHub Issues](https://github.com/YOUR_USERNAME/Building-Agentic-AI-Applications-with-LLMs/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/YOUR_USERNAME/Building-Agentic-AI-Applications-with-LLMs/discussions)
 - **Security**: See [SECURITY.md](SECURITY.md)
 
-## 📈 Project Status
+## Project Status
 
 - ✅ All 13 modules completed
 - ✅ 153 content files created
@@ -236,7 +236,7 @@ NVIDIA, NIM, NeMo, TensorRT, Triton, and DGX are trademarks of NVIDIA Corporatio
 - ✅ Security audit passed
 - ✅ Ready for production deployment
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - NVIDIA for AI platform and tools
 - Course development team
