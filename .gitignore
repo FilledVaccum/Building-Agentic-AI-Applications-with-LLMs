@@ -89,10 +89,8 @@ tmp/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Kiro CLI - Keep configuration but exclude sensitive data
-.kiro/settings/lsp.json
-.kiro/cache/
-.kiro/logs/
+# Kiro CLI - Exclude all .kiro files
+.kiro/
 
 # Project specific - Content files (generated/large)
 content/modules/*
