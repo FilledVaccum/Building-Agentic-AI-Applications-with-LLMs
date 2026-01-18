@@ -1,0 +1,128 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Module",
+  "type": "object",
+  "required": [
+    "module_id",
+    "title",
+    "duration_hours",
+    "exam_topics",
+    "learning_objectives",
+    "prerequisites",
+    "theoretical_content",
+    "platform_demos",
+    "lab_id",
+    "assessment_id"
+  ],
+  "properties": {
+    "module_id": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 13
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "duration_hours": {
+      "type": "number",
+      "minimum": 0
+    },
+    "exam_topics": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100
+      }
+    },
+    "learning_objectives": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/learning_objective"
+      }
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "theoretical_content": {
+      "type": "string",
+      "minLength": 1
+    },
+    "platform_demos": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/platform_demo"
+      }
+    },
+    "lab_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "assessment_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "additional_resources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "definitions": {
+    "learning_objective": {
+      "type": "object",
+      "required": ["objective_id", "description", "exam_topics", "bloom_level"],
+      "properties": {
+        "objective_id": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "exam_topics": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "bloom_level": {
+          "type": "string",
+          "enum": ["remember", "understand", "apply", "analyze", "evaluate", "create"]
+        }
+      }
+    },
+    "platform_demo": {
+      "type": "object",
+      "required": ["demo_id", "title", "platform", "description", "code_examples"],
+      "properties": {
+        "demo_id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "platform": {
+          "type": "string",
+          "enum": ["NIM", "NeMo", "TensorRT-LLM", "Triton", "build.nvidia.com"]
+        },
+        "description": {
+          "type": "string"
+        },
+        "code_examples": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

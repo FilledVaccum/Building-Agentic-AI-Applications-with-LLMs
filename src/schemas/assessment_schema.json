@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Assessment",
+  "type": "object",
+  "required": [
+    "assessment_id",
+    "assessment_type",
+    "questions",
+    "passing_score",
+    "time_limit",
+    "exam_topics_covered"
+  ],
+  "properties": {
+    "assessment_id": {
+      "type": "string"
+    },
+    "assessment_type": {
+      "type": "string",
+      "enum": ["module_quiz", "mid_course_project", "final_project", "practice_exam"]
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/question"
+      }
+    },
+    "passing_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "time_limit": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "exam_topics_covered": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100
+      }
+    }
+  },
+  "definitions": {
+    "question": {
+      "type": "object",
+      "required": [
+        "question_id",
+        "question_text",
+        "question_type",
+        "options",
+        "correct_answer",
+        "explanation",
+        "exam_topic",
+        "difficulty"
+      ],
+      "properties": {
+        "question_id": {
+          "type": "string"
+        },
+        "question_text": {
+          "type": "string"
+        },
+        "question_type": {
+          "type": "string",
+          "enum": ["multiple_choice", "multiple_select", "scenario"]
+        },
+        "options": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string"
+          }
+        },
+        "correct_answer": {
+          "oneOf": [
+            {"type": "string"},
+            {
+              "type": "array",
+              "items": {"type": "string"}
+            }
+          ]
+        },
+        "explanation": {
+          "type": "string"
+        },
+        "exam_topic": {
+          "type": "string"
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": ["easy", "medium", "hard"]
+        }
+      }
+    }
+  }
+}

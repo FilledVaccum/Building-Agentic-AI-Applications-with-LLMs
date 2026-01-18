@@ -1,0 +1,33 @@
+The Agentic AI LLMs professional certification is an intermediate-level credential that validates a candidate’s ability to architect, develop, deploy, and govern advanced agentic AI solutions, with a focus on multi-agent interaction, distributed reasoning, scalability, and ethical safeguards. The exam is online and proctored remotely, includes 60–70 questions, and has a 120-minute time limit.
+
+Certification Exam Details
+
+Duration: 120 minutes
+
+Certification level: Professional
+
+Subject: Agentic AI
+
+Number of questions: 60–70
+
+Prerequisites: 1–2 years of experience in AI/ML roles and hands-on work with production-level agentic AI projects. Strong knowledge of agent development, architecture, orchestration, multi-agent frameworks, and the integration of tools and models across various platforms. Experience with evaluation, observability, deployment, user interface design, reliability guardrails, and rapid prototyping platforms is also essential for ensuring robust and scalable agentic AI solutions.
+
+
+Exam Preparation
+Topics Covered in the Exam
+
+    Agent Design and Cognition: Architect agents, apply reasoning and planning, manage memory, and coordinate multi-agent workflows.
+    Knowledge Integration and Agent Development: Implement retrieval pipelines, handle data, engineer prompts, and build multimodal, reliable agents.
+    NVIDIA Platform Implementation and Deployment: Use NVIDIA tools to optimize inference, deploy at scale, and manage production workflows.
+    Evaluation, Monitoring, and Maintenance: Benchmark and tune performance, monitor live systems, troubleshoot issues, and ensure continuous improvement.
+    Human, Ethical, and Compliance Considerations: Design human-in-the-loop systems, enforce safety and compliance guardrails, and uphold responsible AI practices.
+
+Candidate Audiences
+    Software developers
+    Software engineers
+    Solutions architects
+    Machine learning engineers
+    Data scientists
+    AI strategists
+    AI specialists
+

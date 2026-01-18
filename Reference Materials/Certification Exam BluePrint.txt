@@ -1,0 +1,17 @@
+Exam Blueprint
+
+
+Exam Blueprint
+
+The table below provides an overview of the topic areas covered in the certification exam and how much of the exam is focused on that subject.
+Topic Areas 	% of Exam 	Topics Covered
+Agent Architecture and Design 	15% 	Foundational structuring and design of agentic AI systems, focusing on how agents interact, reason, and communicate within their environments
+Agent Development 	15% 	Practical building, integration, and enhancement of agents
+Evaluation and Tuning 	13% 	Measuring, comparing, and optimizing agent performance
+Deployment and Scaling 	13% 	Operationalizing and scaling agentic systems
+Cognition, Planning, and Memory 	10% 	Core cognitive processes underlying intelligent agent behavior, including reasoning strategies, decision-making, and memory management
+Knowledge Integration and Data Handling 	10% 	Integration of external knowledge and the management of diverse data types
+NVIDIA Platform Implementation 	7% 	Leveraging NVIDIA’s AI hardware and software platforms for agentic AI systems
+Run, Monitor, and Maintain 	5% 	Ongoing operation, monitoring, and maintenance of agentic systems post-deployment
+Safety, Ethics, and Compliance 	5% 	Principles and practices that ensure agentic AI systems operate responsibly, uphold ethical standards, and comply with legal and regulatory frameworks
+Human-AI Interaction and Oversight 	5% 	The design and implementation of systems that facilitate effective human oversight and interaction with agents
